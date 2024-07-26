@@ -1,0 +1,25 @@
+dotnet new sln --name EtecBarraBonita
+
+dotnet new mvc -o EtecBarraBonita
+
+dotnet sln add EtecBarraBonita\EtecBarraBonita.csproj
+
+Ctrl + Shift + P -> Pesquisar NuGet Gallery
+
+EntityFrameworkCore
+EntityFrameworkCore.Design
+EntityFrameworkCore.Tools
+Identity.EntityFrameworkCore
+Pomelo.EntityFrameworkCore.MySql
+
+Criar as classe de Modelo
+
+Cria o Contexto
+
+Criar a ConnectionString no AppSettings
+
+Adicionar os Serviços no Program
+
+Executar o Xampp e o MySql
+
+Criar e Executar a Migração de Dados
